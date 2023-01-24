@@ -1,0 +1,255 @@
+
+.main_container{
+    font-family:'Times New Roman', Times, serif
+}
+.social_nav{
+    background-color: black;
+    height: 40px;
+}
+.social_nav_container{
+    margin-right: 150px;
+}
+.social_nav a{
+    color: white;
+    font-size: 18px;
+    float: right;
+    margin: 10px;
+    margin-top: 10px;
+}
+.social_nav a:hover{
+    color: rgb(37, 72, 228);
+}
+.about_nav{
+    display: flex;
+    width: 100%;
+}
+.about_nav_logo{
+    width: 50%;
+    text-align: center;
+    margin-top: 10px;
+}
+.about_nav_buttons{
+    width: 50%;
+    padding-top: 100px;
+}
+.about_nav_buttons_content{
+    float: right;
+    margin-right: 160px;
+}
+.about_nav_buttons a{
+    font-weight: lighter;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(73, 70, 70);
+    border: 2px solid white;
+    border-width: 5px;
+}
+.about_nav_buttons a:hover{
+    color: white;
+    background-color: rgb(131, 196, 33);
+    border: 2px solid rgb(131, 196, 33);
+    border-width: 5px;
+    border-radius: 5px;
+}
+.introduction{
+    text-align: center;
+}
+.introduction h1{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.introduction p{
+    font-size: 18px;
+}
+.intro_content{
+    display: flex;
+}
+.intro_image{
+    border: 2px solid rgb(211, 208, 208);
+    width: 50%;
+    height: 360px;
+    padding: 5px;
+    margin-left: 170px;
+    margin-top: 60px;
+}
+.image1{
+    width: 100%;
+    height: 100%;
+}
+.intro_main_content{
+    width: 50%;
+    padding-left: 50px;
+    margin-top: 60px;
+    margin-right: 150px;
+}
+.intro_main_content h1{
+    font-size: 45px;
+}
+.intro_main_content p{
+    font-size: 22px;
+    text-align: justify;
+}
+.main_content{
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 50px;
+}
+.main_content p{
+    font-size: 22px;
+    text-align: justify;
+}
+.mission{
+    display: inline-flex;
+}
+.mission_photo{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.mission_img{
+    height: 240px;
+}
+.mission_p{
+    margin-top: 150px;
+    margin-right: 140px;
+    margin-left: 50px;
+    font-size: 22px;
+    text-align: justify;
+}
+.vission{
+    display: inline-flex;
+}
+.vission_p{
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: 22px;
+    padding-right: 50px;
+    text-align: justify;
+}
+.vision_img{
+    margin-top: 120px;
+    margin-right: 150px;
+    width: 400px;
+    height: 170px;
+}
+.address{
+    text-align: center;
+    margin-top: 70px;
+}
+.address h6{
+    font-size: 20px;
+    font-weight: bold;
+}
+.slide_section{
+    padding-bottom: 70px;
+}
+.slide_section_box{
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 50px;
+    background-color: rgba(238, 238, 224, 0.527);
+}
+.slide_pic_container{
+    display: flex;
+}
+.slide_left{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-top: 300px;
+    color: white;
+    background-color: rgb(104, 102, 102);
+    border-radius: 5px;
+    font-size: 20px;
+}
+.slide_left:hover{
+    background-color: rgb(44, 43, 43);
+    transition: .5s;
+}
+.slide_right{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    margin-right: 20px;
+    margin-top: 300px;
+    color: white;
+    background-color: rgb(104, 102, 102);
+    border-radius: 5px;
+    font-size: 20px;
+}
+.slide_right:hover{
+    background-color: rgb(44, 43, 43);
+    transition: .5s;
+}
+.slide_pic{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+}
+.slide_dots{
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 15px;
+}
+.slide_dots i{
+    margin: 5px;
+    font-size: 12px;
+    color: rgb(109, 106, 106);
+}
+.slide_dots i:hover{
+    color: black;
+}
+.slide_dots i:active{
+    color: black;
+    font-size: 15px;
+}
+.footer_container{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: rgb(41, 40, 40);
+}
+.footer_about{
+    margin-left: 150px;
+    width: 70%;
+}
+.footer_about h6{
+    font-size: 20px;
+    color: rgb(88, 165, 201);
+}
+.footer_about hr{
+    width: 50%;
+    margin-top: -5px;
+    color: white;
+}
+.footer_about p{
+    color: rgb(122, 119, 119);
+}
+.footer_about button{
+    width: 90px;
+    color: white;
+    background-color: rgb(88, 165, 201);
+    border: none;
+    font-size: 20px;
+    padding-bottom: 4px;
+}
+.footer_agent{
+    width: 30%;
+    margin-right: 150px;
+}
+.footer_agent h6{
+    font-size: 20px;
+    color: rgb(88, 165, 201);
+}
+.footer_agent hr{
+    width: 100%;
+    margin-top: -5px;
+    color: white;
+}
+.footer_agent img{
+    width: 100%;
+    height: 390px;
+}
